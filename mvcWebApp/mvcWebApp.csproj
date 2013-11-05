@@ -137,7 +137,6 @@
     <Content Include="Images\image %281%29.jpeg" />
     <Content Include="Images\image %282%29.jpeg" />
     <Content Include="Images\Rama-and-Ash-Final-10x10.jpg" />
-    <Content Include="Images\Rama-and-Ash-Final-10x10.png" />
     <Content Include="Images\Rama-and-Ash2-FinalImage.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -165,6 +164,9 @@
     <Content Include="assets\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="assets\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="assets\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\_Images.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

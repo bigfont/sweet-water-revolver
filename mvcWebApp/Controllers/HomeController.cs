@@ -15,6 +15,8 @@ namespace mvcWebApp.Controllers
 
         public ActionResult Index()
         {
+
+            // NICE-TO-HAVE Sort images by height.
             string imagesDir = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "Images");
             string[] files = Directory.EnumerateFiles(imagesDir).Select(p => "~/Images/" + Path.GetFileName(p)).ToArray();
 

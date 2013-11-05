@@ -1,0 +1,35 @@
+﻿@{
+
+    int index = 0;
+    int columns = 3;
+    string path = String.Empty;
+    string[] paths = ViewBag.ImageVirtualPaths;
+
+}
+
+
+@while (index < paths.Length)
+{
+
+    <div class="row">
+
+        @for (int j = 0; j < columns; ++j)
+        {
+
+            if (index < paths.Length)
+            {
+                path = paths[index].ToString();
+
+                <div class="col-lg-4">
+                    <a class="thumbnail" href="@path">
+                        <img class="img-responsive" src="@Url.Content(path)" alt="" />
+                    </a>
+                </div>
+            }
+
+            ++index;
+        }
+
+    </div>
+
+}
