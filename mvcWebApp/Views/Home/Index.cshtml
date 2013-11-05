@@ -20,15 +20,10 @@
 <body>
     <h1>Sweet Water Revolver</h1>
 
-
-
-
-
-
-
-
-
-
+    @foreach (string src in @ViewBag.ImageVirtualPaths)
+    {
+        <img height="100" width="100" src=@Url.Content(@src.ToString()) alt="" />
+    }
 
 
 
