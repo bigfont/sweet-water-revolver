@@ -19,11 +19,11 @@ footer > p {
     text-align: Center;
 }
 
-    header {
-        border-bottom: 2px solid black;
-        padding-bottom: 50px;
-        width: 80%;
-    }
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 50px;
+    width: 80%;
+}
 
     header > h1 {
         border-top: 2px solid black;
@@ -32,11 +32,11 @@ footer > p {
         width: 80%;
     }
 
-    footer {
-        border-top: 2px solid black;
-        padding-top: 50px;
-        width: 80%;
-    }
+footer {
+    border-top: 2px solid black;
+    padding-top: 50px;
+    width: 80%;
+}
 
     footer > p {
         border-bottom: 2px solid black;
@@ -44,18 +44,22 @@ footer > p {
         width: 80%;
     }
 
-#our-jumbotron{
+#our-jumbotron {
     background-color: #8AB5E2;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 #our-carousel {
-
 }
 
     #our-carousel > .carousel {
-
     }
+
+        #our-carousel > .carousel .carousel-caption {
+            opacity: 0.6;
+            background-color: black;
+            color: white;
+        }
 
 a.thumbnail:hover {
     background: -moz-linear-gradient(top, rgba(252,29,0,0.1) 0%, rgba(252,252,0,0.22) 28%, rgba(0,249,24,0.22) 66%, rgba(4,0,249,0.2) 100%); /* FF3.6+ */
