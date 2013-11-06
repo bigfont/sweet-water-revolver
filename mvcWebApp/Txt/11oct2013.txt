@@ -1,0 +1,25 @@
+﻿
+Must-Have
+--
+
+Point the proper domain at the azure website.
+
+
+
+
+Should-Have
+--
+
+Maintain carousel height during transitions. 
+
+Collage images in the carousel. 
+
+A way to display upcoming shows and news.
+
+
+
+
+Nice-to-Have
+--
+
+Responsive design. 
