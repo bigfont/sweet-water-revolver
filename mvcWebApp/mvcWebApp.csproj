@@ -125,6 +125,7 @@
     <Content Include="assets\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\bootstrap\dist\js\bootstrap.js" />
     <Content Include="assets\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="assets\site\css\bigfont.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\421288_10151569425364792_1804556491_n.jpg" />
     <Content Include="Images\421344_10200451306383527_1975858000_n.jpg" />
@@ -149,7 +150,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="assets\site\css\" />
     <Folder Include="assets\site\img\" />
     <Folder Include="assets\site\js\" />
     <Folder Include="Models\" />
@@ -167,6 +167,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\_Images.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\_Header.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\_Footer.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

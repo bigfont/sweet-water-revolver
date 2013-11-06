@@ -25,3 +25,4 @@ C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.We
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.WebPages.Razor.xml
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.pdb
+C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.csprojResolveAssemblyReference.cache
