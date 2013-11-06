@@ -135,6 +135,11 @@
     <Content Include="Images\970575_10151569425734792_1256821787_n.jpg" />
     <Content Include="Images\album release 2.jpg" />
     <Content Include="Images\album release ashton.jpg" />
+    <Content Include="Images\Carousel\carousel-1.jpg" />
+    <Content Include="Images\Carousel\carousel-2.jpg" />
+    <Content Include="Images\Carousel\carousel-3.jpg" />
+    <Content Include="Images\Carousel\carousel-4.jpg" />
+    <Content Include="Images\Carousel\carousel-5.jpg" />
     <Content Include="Images\image %281%29.jpeg" />
     <Content Include="Images\image %282%29.jpeg" />
     <Content Include="Images\Rama-and-Ash-Final-10x10.jpg" />
@@ -176,6 +181,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\_Jumbotron.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\_Carousel.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

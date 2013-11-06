@@ -1,50 +1,60 @@
 ﻿
+article {
+    margin-top: 50px;
+}
+
+    article > * {
+        /*All children of article have the same bottom margin. */
+        margin-bottom: 50px;
+    }
+
 header,
 footer,
 header > h1,
 footer > p {
-    /*reset and center*/
+    /*center*/
     display: block;
-    margin: 0;
     margin-left: auto;
     margin-right: auto;
-    padding: 0;
     text-align: Center;
 }
 
     header.container {
         border-bottom: 2px solid black;
-        margin-bottom: 50px;
-        padding-bottom:50px;
+        padding-bottom: 50px;
         width: 80%;
     }
 
     header > h1 {
         border-top: 2px solid black;
-        margin-top: 50px;
+        margin-top: 0;
         padding-top: 50px;
         width: 80%;
     }
 
     footer.container {
-        border-top:  2px solid black;
-        margin-top: 50px;
-        padding-top:50px;
+        border-top: 2px solid black;
+        padding-top: 50px;
         width: 80%;
     }
 
     footer > p {
-        border-bottom:  2px solid black;
-        margin-bottom: 50px;
+        border-bottom: 2px solid black;
         padding-bottom: 50px;
         width: 80%;
     }
 
-.jumbotron {
+#my-jumbotron {
+    background-color: #8AB5E2;
+}
 
-    background-color:#8AB5E2;
+#my-carousel {
 
 }
+
+    #my-carousel > .carousel {
+
+    }
 
 a.thumbnail:hover {
     background: -moz-linear-gradient(top, rgba(252,29,0,0.1) 0%, rgba(252,252,0,0.22) 28%, rgba(0,249,24,0.22) 66%, rgba(4,0,249,0.2) 100%); /* FF3.6+ */
@@ -54,4 +64,11 @@ a.thumbnail:hover {
     background: -ms-linear-gradient(top, rgba(252,29,0,0.1) 0%,rgba(252,252,0,0.22) 28%,rgba(0,249,24,0.22) 66%,rgba(4,0,249,0.2) 100%); /* IE10+ */
     background: linear-gradient(to bottom, rgba(252,29,0,0.1) 0%,rgba(252,252,0,0.22) 28%,rgba(0,249,24,0.22) 66%,rgba(4,0,249,0.2) 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1afc1d00', endColorstr='#330400f9',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
+h1 {
+    font-size: 60px;
 }

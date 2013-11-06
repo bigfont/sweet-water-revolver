@@ -31,13 +31,15 @@ namespace mvcWebApp.Controllers
 
         public ActionResult Index()
         {
-
-
             // NICE-TO-HAVE Sort images by height.
             string imagesDir = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "Images");
             string[] files = Directory.EnumerateFiles(imagesDir).Select(p => this.domain + "/Images/" + Path.GetFileName(p)).ToArray();
 
+            string[] carouselFiles = Directory.EnumerateFiles(imagesDir + "/Carousel").Select(p => this.domain + "/Images/Carousel/" + Path.GetFileName(p)).ToArray();           
+
             ViewBag.ImageVirtualPaths = files;
+            
+            ViewBag.CarouselVirtualPaths = carouselFiles;            
 
             return View();
         }

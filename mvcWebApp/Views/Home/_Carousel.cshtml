@@ -1,0 +1,63 @@
+﻿
+<div id="my-carousel" class="container">
+
+    <div class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+
+            @for (int i = 0; i < ViewBag.CarouselVirtualPaths.Length; ++i)
+            {
+                string itemClass;
+
+                if (i == 0)
+                {
+                    itemClass = "active";
+                }
+                else
+                {
+                    itemClass = "";
+                }
+
+                <li data-target="#my-carousel" data-slide-to="@i" class="@itemClass"></li>
+
+            }
+
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            @for (int i = 0; i < ViewBag.CarouselVirtualPaths.Length; ++i)
+            {
+                string itemClass;
+
+                if (i == 0)
+                {
+                    itemClass = "item active";
+                }
+                else
+                {
+                    itemClass = "item";
+                }
+
+                <div class="@itemClass">
+                    <img src="@Url.Content(ViewBag.CarouselVirtualPaths[i])" alt="" />
+                    <div class="carousel-caption">
+                        Sweet Water Revolver is so many things. 
+                    </div>
+                </div>
+
+            }
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#my-carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+</div>
