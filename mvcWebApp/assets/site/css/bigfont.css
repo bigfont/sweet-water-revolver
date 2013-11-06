@@ -50,9 +50,33 @@ footer {
 }
 
     #our-external-links > a {
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-left: 10px;
+        margin-right: 10px;        
+        display: block;
+        float: left;
+        height: 100px;
+        width: 100px;
+        text-align: center;
     }
+
+        #our-external-links > a:hover {
+            
+            text-decoration:none;
+        
+        }
+
+        #our-external-links > a:first-child {
+            margin-left: 0;
+        }
+
+        #our-external-links > a:last-child {
+            margin-right: 0;
+        }
+
+        #our-external-links > a > * {
+            display: block;
+            line-height: 85px;
+        }
 
 #our-jumbotron {
     background-color: #8AB5E2;
@@ -72,7 +96,7 @@ footer {
             color: white;
         }
 
-a.thumbnail:hover {
+a:hover {
     background: -moz-linear-gradient(top, rgba(252,29,0,0.1) 0%, rgba(252,252,0,0.22) 28%, rgba(0,249,24,0.22) 66%, rgba(4,0,249,0.2) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,29,0,0.1)), color-stop(28%,rgba(252,252,0,0.22)), color-stop(66%,rgba(0,249,24,0.22)), color-stop(100%,rgba(4,0,249,0.2))); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, rgba(252,29,0,0.1) 0%,rgba(252,252,0,0.22) 28%,rgba(0,249,24,0.22) 66%,rgba(4,0,249,0.2) 100%); /* Chrome10+,Safari5.1+ */
