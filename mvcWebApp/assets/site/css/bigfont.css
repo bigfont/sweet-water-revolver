@@ -44,6 +44,16 @@ footer {
         width: 80%;
     }
 
+#our-external-links {
+    margin: auto;
+    display: table;
+}
+
+    #our-external-links > a {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
 #our-jumbotron {
     background-color: #8AB5E2;
     margin-bottom: 0;
