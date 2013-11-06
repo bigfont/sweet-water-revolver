@@ -57,6 +57,7 @@ footer {
 
         #our-carousel > .carousel .carousel-caption {
             opacity: 0.6;
+            filter: alpha(opacity=0.6);
             background-color: black;
             color: white;
         }
