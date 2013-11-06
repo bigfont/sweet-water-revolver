@@ -1,26 +1,50 @@
-﻿header {
+﻿
+header,
+footer,
+header > h1,
+footer > p {
+    /*reset and center*/
+    display: block;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: Center;
 }
+
+    header.container {
+        border-bottom: 2px solid black;
+        margin-bottom: 50px;
+        padding-bottom:50px;
+        width: 80%;
+    }
 
     header > h1 {
-        border-bottom: 1px solid black;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: Center;
-        padding-bottom: 40px;
+        border-top: 2px solid black;
+        margin-top: 50px;
+        padding-top: 50px;
+        width: 80%;
     }
 
-
-footer {
-}
+    footer.container {
+        border-top:  2px solid black;
+        margin-top: 50px;
+        padding-top:50px;
+        width: 80%;
+    }
 
     footer > p {
-        border-top: 1px solid black;
-        margin-top: 100px;
-        margin-bottom: 100px;
-        text-align: center;
-        padding-top: 40px;
+        border-bottom:  2px solid black;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        width: 80%;
     }
 
+.jumbotron {
+
+    background-color:#8AB5E2;
+
+}
 
 a.thumbnail:hover {
     background: -moz-linear-gradient(top, rgba(252,29,0,0.1) 0%, rgba(252,252,0,0.22) 28%, rgba(0,249,24,0.22) 66%, rgba(4,0,249,0.2) 100%); /* FF3.6+ */
