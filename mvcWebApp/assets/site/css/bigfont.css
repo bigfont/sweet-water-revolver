@@ -81,18 +81,12 @@ footer {
     margin-bottom: 0;
 }
 
-#our-carousel {
+.carousel-caption {
+    opacity: 0.6;
+    filter: alpha(opacity=0.6);
+    background-color: black;
+    color: white;
 }
-
-    #our-carousel > .carousel {
-    }
-
-        #our-carousel > .carousel .carousel-caption {
-            opacity: 0.6;
-            filter: alpha(opacity=0.6);
-            background-color: black;
-            color: white;
-        }
 
 a:hover {
     background: -moz-linear-gradient(top, rgba(252,29,0,0.1) 0%, rgba(252,252,0,0.22) 28%, rgba(0,249,24,0.22) 66%, rgba(4,0,249,0.2) 100%); /* FF3.6+ */
