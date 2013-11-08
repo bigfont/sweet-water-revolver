@@ -1,9 +1,9 @@
-﻿<section class="container">
+﻿<section class="container">    
 
-    <div id="our-carousel">
-
-        <div class="carousel slide" data-ride="carousel">
+        <div id="our-carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
+
+
             <ol class="carousel-indicators">
 
                 @for (int i = 0; i < ViewBag.CarouselVirtualPaths.Length; ++i)
@@ -19,7 +19,7 @@
                         itemClass = "";
                     }
 
-                    <li data-target="#our-carousel" data-slide-to="@i" class="@itemClass"></li>
+                <li data-target="#our-carousel" data-slide-to="@i" class="@itemClass"></li>
 
                 }
 
@@ -59,7 +59,7 @@
             <a class="right carousel-control" href="#our-carousel" data-slide="next">
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
-        </div>
 
-    </div>
+        </div>
+            
 </section>
