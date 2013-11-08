@@ -2,7 +2,6 @@ C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.pdb
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Newtonsoft.Json.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Net.Http.Formatting.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Helpers.dll
@@ -13,7 +12,6 @@ C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Ra
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.WebPages.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.WebPages.Razor.dll
-C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Newtonsoft.Json.xml
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Net.Http.Formatting.xml
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Helpers.xml
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Http.xml
@@ -26,3 +24,4 @@ C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.We
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.pdb
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\obj\Debug\mvcWebApp.csprojResolveAssemblyReference.cache
+C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Microsoft.Web.Infrastructure.xml
