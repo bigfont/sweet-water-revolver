@@ -2,7 +2,6 @@ C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\mvcWebApp.pdb
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\Newtonsoft.Json.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Net.Http.Formatting.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Helpers.dll
 C:\Users\Shaun\Documents\GitHub\sweet-water-revolver\mvcWebApp\bin\System.Web.Http.dll

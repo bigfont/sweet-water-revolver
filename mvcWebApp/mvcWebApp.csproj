@@ -144,6 +144,7 @@
     <Content Include="Images\image %282%29.jpeg" />
     <Content Include="Images\Rama-and-Ash-Final-10x10.jpg" />
     <Content Include="Images\Rama-and-Ash2-FinalImage.jpg" />
+    <Content Include="Images\utility-under-construction-v1.png" />
     <Content Include="Txt\11oct2013.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
