@@ -8,7 +8,7 @@
     <title>Sweet Water Revolver</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="~/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link href="~/assets/site/css/bigfont.css" rel="stylesheet" media="screen" />
     <link href="~/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" media="screen" />
 
@@ -42,12 +42,12 @@
 
     <article>
 
-        @Html.Partial("_Header")        
+        @Html.Partial("_Header")
 
         @Html.Partial("_Carousel")
-        
+
         @Html.Partial("_ExternalLinks")
-        
+
         @Html.Partial("_Bio")
 
         @Html.Partial("_Images")
@@ -56,23 +56,14 @@
 
     </article>
 
-    <img id="under-construction" src="~/Images/utility-under-construction-v1.png" style="position:absolute;top:0;right:0;z-index:10000;width:400px;" />
+    <img class="img-responsive" id="under-construction" src="~/Images/utility-under-construction-v1.png" style="position:absolute;top:0;right:0;z-index:10000;width:400px;" />
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="~/assets/bootstrap/dist/js/bootstrap.min.js"></script>
-    
-    <script type="text/javascript">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
-        $(function () {
-
-
-
-        });
-
-    </script>
 </body>
 
 </html>
