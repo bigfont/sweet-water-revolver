@@ -182,9 +182,6 @@
     <Content Include="Views\Home\_Footer.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_Jumbotron.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Home\_Carousel.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -221,6 +218,9 @@
     <Content Include="assets\font-awesome\scss\_spinning.scss" />
     <Content Include="assets\font-awesome\scss\_stacked.scss" />
     <Content Include="assets\font-awesome\scss\_variables.scss" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\_Bio.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

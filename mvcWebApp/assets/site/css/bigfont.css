@@ -44,37 +44,29 @@ footer {
         width: 80%;
     }
 
-#our-external-links {
-    margin: auto;
-    display: table;
-}
+            #social div {
+                text-align: center;                 
+            }
 
-    #our-external-links > a {
-        margin-left: 10px;
-        margin-right: 10px;
-        display: block;
-        float: left;
-        height: 100px;
-        width: 100px;
-        text-align: center;
-    }
+            #social a {
+                height: 100px;
+                width: 100px;
+                padding-top: 15px;
+                display: block;
+                margin: auto;
+                margin-bottom: 5px;
+            }
 
-        #our-external-links > a:hover {
-            text-decoration: none;
-        }
+            #social a:hover {
+                text-decoration: none;
+                color: white;
+                background: #428bca;
+            }
 
-        #our-external-links > a:first-child {
-            margin-left: 0;
-        }
-
-        #our-external-links > a:last-child {
-            margin-right: 0;
-        }
-
-        #our-external-links > a > * {
-            display: block;
-            line-height: 85px;
-        }
+            #social span {                
+                margin-top: 17px;
+                display: block;
+            }
 
 #our-jumbotron {
     background-color: #F20745;
