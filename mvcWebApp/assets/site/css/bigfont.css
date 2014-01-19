@@ -1,12 +1,18 @@
 ﻿
-article {
-    margin-top: 50px;
+body {
+
+    margin-top: 20px;
+    background: black;
+    color: white;
+
 }
 
-    article > * {
-        /*All children of article have the same bottom margin. */
-        margin-bottom: 50px;
-    }
+article > * {
+
+    padding-bottom: 40px;
+
+}
+
 
 header,
 footer,
@@ -19,58 +25,28 @@ footer > p {
     text-align: Center;
 }
 
-header {
-    border-bottom: 2px solid black;
-    padding-bottom: 50px;
-    width: 80%;
+#social div {
+    text-align: center;
 }
 
-    header > h1 {
-        border-top: 2px solid black;
-        margin-top: 0;
-        padding-top: 50px;
-        width: 80%;
-    }
-
-footer {
-    border-top: 2px solid black;
-    padding-top: 50px;
-    width: 80%;
+#social a {
+    height: 100px;
+    width: 100px;
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
-    footer > p {
-        border-bottom: 2px solid black;
-        padding-bottom: 50px;
-        width: 80%;
+    #social a:hover {
+        text-decoration: none;
+        color: white;
+        background: #428bca;
     }
 
-            #social div {
-                text-align: center;                 
-            }
-
-            #social a {
-                height: 100px;
-                width: 100px;
-                padding-top: 15px;
-                display: block;
-                margin: auto;
-                margin-bottom: 5px;
-            }
-
-            #social a:hover {
-                text-decoration: none;
-                color: white;
-                background: #428bca;
-            }
-
-            #social span {                
-                margin-top: 17px;
-                display: block;
-            }
-
-#our-jumbotron {
-    background-color: #F20745;
-    margin-bottom: 0;
+#social span {
+    margin-top: 17px;
+    display: block;
 }
 
 .carousel-caption {
